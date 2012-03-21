@@ -36,3 +36,8 @@ dependent on type traits.
 
 
 Credits to _Chris Maiwald_ for the conversion code to `double` and extensive testing.
+
+
+#### License ####
+
+3-clause BSD license: use it for anything, but give credit, don't blame us if your rocket crashes and don't advertise with it (who would).
