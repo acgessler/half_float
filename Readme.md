@@ -13,7 +13,12 @@ The implementation tries to adhere to IEEE 754 in that it supports NaN and Infin
  - no difference between qnan and snan
  - no traps
  - no well-defined rounding mode
- 
+
+
+We also supply a specialization for `std::numeric_limits<half>` that `half` be usable in template code
+dependent on type traits.
+
+
 #### Usage ####
 
      // get some halfs (half is a typedef for HalfFloat)
